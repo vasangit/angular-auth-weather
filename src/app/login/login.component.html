@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width,initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="login.component.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <section>
+        <div class="box">
+            <div class="container">
+                <div class="form">
+                    <strong >Weather Report</strong>
+                    <hr>
+                    <h1>login</h1>
+                    
+                    <form 
+                    >
+                        <div class="input-field">
+                            <div class="form-group">
+                            <ul><i class="fa-solid fa-user"></i>username</ul>
+                            <input class ="form-control"type="text" 
+                             placeholder="enter username">
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            <div class="form-group">
+                            <ul><i class="fa-solid fa-key"></i>password</ul>
+                            <input type="password" placeholder="enter password" >
+
+
+                            
+                            </div>
+                        </div>
+                        
+                        <div class="input-field">
+                            
+                            <a routerLink="/home"><button type="submit"   value="login" onclick="alert('LOGIN SUCCESS')">login </button></a>
+                        </div>
+
+                        <p class="forgot">Forgot password ? <a routerLink="/pnf">Click Here</a></p>
+                        <br>
+                        <p class="forgot">Don't have an account ? <a routerLink="/signup"><button>Signup</button></a></p>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

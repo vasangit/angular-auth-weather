@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    background-image: url("img/about/banner.png");
+}
+#divweathermain{
+    font-size: 26px;
+    position: relative;
+    width:200px;
+    height: 200px;
+    background:rgba(225,225,225,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.141);
+    border-right: 1px solid rgba(255, 255, 255, 0.141);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+
+}
+.weatherwidgetrow{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
